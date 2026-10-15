@@ -1,0 +1,25 @@
+{
+  "name": "claude-core",
+  "version": "1.0.0",
+  "description": "Process skills, a doc agent and a crash-safe handoff hook for Claude Code: census-before-sweep, session logs, warm resume, read-only close-out, research synthesis, parallel-chat return path, and pre-install repo audits.",
+  "author": {
+    "name": "Matthias Bernhard",
+    "url": "https://github.com/m6bernha"
+  },
+  "homepage": "https://github.com/m6bernha/claude-core",
+  "repository": "https://github.com/m6bernha/claude-core",
+  "license": "MIT",
+  "keywords": ["skills", "agents", "hooks", "workflow", "handoff", "audit", "process"],
+  "skills": [
+    "./skills/audit-github-repo",
+    "./skills/census-then-build",
+    "./skills/parallel-chat-manifest",
+    "./skills/research-bridge",
+    "./skills/resume-handoff",
+    "./skills/session-log",
+    "./skills/sitrep-lite"
+  ],
+  "agents": [
+    "./agents/doc-updater.md"
+  ]
+}

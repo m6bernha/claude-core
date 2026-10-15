@@ -1,0 +1,24 @@
+{
+  "name": "claude-core",
+  "owner": {
+    "name": "Matthias Bernhard",
+    "url": "https://github.com/m6bernha"
+  },
+  "metadata": {
+    "description": "Process skills, a doc agent and a crash-safe handoff hook for Claude Code."
+  },
+  "plugins": [
+    {
+      "name": "claude-core",
+      "source": "./",
+      "description": "Census-before-sweep, session logs, warm resume, read-only close-out, research synthesis, parallel-chat return path, pre-install repo audits, and a crash-safe handoff hook.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Matthias Bernhard"
+      },
+      "homepage": "https://github.com/m6bernha/claude-core",
+      "repository": "https://github.com/m6bernha/claude-core",
+      "license": "MIT"
+    }
+  ]
+}

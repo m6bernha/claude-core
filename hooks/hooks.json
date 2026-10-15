@@ -1,0 +1,10 @@
+{
+  "hooks": {
+    "SessionEnd": [
+      { "hooks": [ { "type": "command", "command": "bash \"${CLAUDE_PLUGIN_ROOT}/hooks/handoff.sh\"" } ] }
+    ],
+    "PreCompact": [
+      { "hooks": [ { "type": "command", "command": "bash \"${CLAUDE_PLUGIN_ROOT}/hooks/handoff.sh\"" } ] }
+    ]
+  }
+}

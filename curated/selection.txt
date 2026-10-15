@@ -1,0 +1,75 @@
+# Curated selection: third-party open source, installed from UPSTREAM only.
+# Format: <owner/repo> <ref> <kind> <name>
+#   ref  : a commit SHA or tag to pin; HEAD = latest (the SHA actually used is recorded)
+#   kind : skill (dir containing SKILL.md) | skill-root (repo root is the skill)
+#          | agent (<name>.md under an agents dir) | rules (rules/<name>/ dir)
+# Delete any line you (or your org's review) have not approved. Lines starting with # are ignored.
+
+# --- mattpocock/skills (MIT): markdown only
+mattpocock/skills 9c9f36c skill domain-modeling
+mattpocock/skills 9c9f36c skill diagnosing-bugs
+mattpocock/skills 9c9f36c skill codebase-design
+mattpocock/skills 9c9f36c skill grilling
+mattpocock/skills 9c9f36c skill grill-with-docs
+
+# --- garrytan/gstack (MIT): skill markdown only, the repo's binaries are never run
+garrytan/gstack HEAD skill investigate
+garrytan/gstack HEAD skill careful
+garrytan/gstack HEAD skill freeze
+garrytan/gstack HEAD skill office-hours
+
+# --- affaan-m/everything-claude-code (MIT): markdown subset only, NO hooks, NO scripts
+affaan-m/everything-claude-code HEAD skill search-first
+affaan-m/everything-claude-code HEAD skill verification-loop
+affaan-m/everything-claude-code HEAD skill strategic-compact
+affaan-m/everything-claude-code HEAD skill iterative-retrieval
+affaan-m/everything-claude-code HEAD skill council
+affaan-m/everything-claude-code HEAD skill code-tour
+affaan-m/everything-claude-code HEAD skill api-design
+affaan-m/everything-claude-code HEAD skill coding-standards
+affaan-m/everything-claude-code HEAD skill tdd-workflow
+affaan-m/everything-claude-code HEAD skill python-patterns
+affaan-m/everything-claude-code HEAD skill python-testing
+affaan-m/everything-claude-code HEAD skill rust-patterns
+affaan-m/everything-claude-code HEAD skill rust-testing
+affaan-m/everything-claude-code HEAD skill agent-introspection-debugging
+affaan-m/everything-claude-code HEAD skill eval-harness
+affaan-m/everything-claude-code HEAD skill context-budget
+affaan-m/everything-claude-code HEAD agent planner
+affaan-m/everything-claude-code HEAD agent architect
+affaan-m/everything-claude-code HEAD agent code-reviewer
+affaan-m/everything-claude-code HEAD agent security-reviewer
+affaan-m/everything-claude-code HEAD agent build-error-resolver
+affaan-m/everything-claude-code HEAD agent python-reviewer
+affaan-m/everything-claude-code HEAD agent rust-reviewer
+affaan-m/everything-claude-code HEAD agent typescript-reviewer
+affaan-m/everything-claude-code HEAD agent refactor-cleaner
+affaan-m/everything-claude-code HEAD agent tdd-guide
+affaan-m/everything-claude-code HEAD agent performance-optimizer
+affaan-m/everything-claude-code HEAD agent rust-build-resolver
+affaan-m/everything-claude-code HEAD agent pytorch-build-resolver
+affaan-m/everything-claude-code HEAD rules common
+affaan-m/everything-claude-code HEAD rules cpp
+affaan-m/everything-claude-code HEAD rules python
+affaan-m/everything-claude-code HEAD rules rust
+
+# --- wshobson/agents (MIT)
+wshobson/agents HEAD agent error-detective
+wshobson/agents HEAD agent incident-responder
+wshobson/agents HEAD agent mermaid-expert
+wshobson/agents HEAD agent dx-optimizer
+
+# --- VoltAgent/awesome-claude-code-subagents (MIT)
+VoltAgent/awesome-claude-code-subagents HEAD agent git-workflow-manager
+VoltAgent/awesome-claude-code-subagents HEAD agent llm-architect
+
+# --- BuilderIO/skills (licence: verify at vetting)
+BuilderIO/skills HEAD skill read-the-damn-docs
+BuilderIO/skills HEAD skill efficient-frontier
+
+# --- JuliusBrussee/caveman (MIT): skills only, never bin/install.js
+JuliusBrussee/caveman HEAD skill caveman
+JuliusBrussee/caveman HEAD skill caveman-review
+
+# --- blader/humanizer (MIT)
+blader/humanizer HEAD skill-root humanizer
